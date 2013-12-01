@@ -2,10 +2,12 @@
 
 # VERSION 2
 
+FROM stackbrew/debian
+
 MAINTAINER Paul Andrew Liljenberg letters@paulnotcom.se
 
 
-FROM stackbrew/debian
+
 
 RUN apt-get -y update
 
