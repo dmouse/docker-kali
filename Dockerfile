@@ -17,7 +17,7 @@ echo "deb http://security.kali.org/kali-security kali/updates main contrib non-f
 echo "deb-src http://security.kali.org/kali-security kali/updates main contrib non-free" >> /etc/apt/sources.list.d/kali.list
 
 RUN apt-key adv --keyserver pgp.mit.edu --recv-keys ED444FF07D8D0BF6
-RUN apt-get update
+RUN apt-get update #2013-12-08
 
 
 
